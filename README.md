@@ -8,8 +8,7 @@ To run this project,
 - go into the src directory 
 - run "node main -t *temperature* -s *conversionScale*" 
 
-  *temperature* should be a valid number
-  *conversionScale* should be 
+  *temperature* should be a valid number and *conversionScale* should be 
    - `CF` (for converting from degree Celcius to degree Farenheit) or
    - `FC` (for converting from degree Farenheit to degree Celsius).
 
