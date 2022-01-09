@@ -9,6 +9,6 @@ To run this project,
 - run "node main -t *temperature* -s *conversionScale*" 
 
   *temperature* should be a valid number and *conversionScale* should be 
-   - `CF` (for converting from degree Celcius to degree Farenheit) or
-   - `FC` (for converting from degree Farenheit to degree Celsius).
+   - *"CF"* (for converting from degree Celcius to degree Farenheit) or
+   - *"FC"* (for converting from degree Farenheit to degree Celsius).
 
