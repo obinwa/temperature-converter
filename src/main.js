@@ -16,8 +16,3 @@ program.parse(process.argv);
 const options = program.opts();
 
 console.log(convertTemperature(options.temperature,options.scaleConversion));
-
-
-
-
-
