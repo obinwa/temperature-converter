@@ -21,7 +21,6 @@ exports.convertTemperature = function(temperatureString, conversion){
       return `Invalid conversion string.`
     }
   }catch(error){
-    console.log(error.message);
     return error.message;
   }
 }
