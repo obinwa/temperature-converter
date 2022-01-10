@@ -19,8 +19,10 @@ describe("get valid number", () => {
     expect(getValidNumber("1.23")).toBe(1.23);
   });
 
-  test("valid fraction number", () => {
-    expect(getValidNumber("9/5")).toBe(1.8);
+  test("fraction number", () => {
+    expect(() => {
+      getValidNumber("9/5");
+    }).toThrow("9/5 is not a valid number");
   });
   
   test("invalid float number", () => {

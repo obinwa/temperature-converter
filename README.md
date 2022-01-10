@@ -12,3 +12,5 @@ To run this project,
    - *"CF"* (for converting from degree Celcius to degree Farenheit) or
    - *"FC"* (for converting from degree Farenheit to degree Celsius).
 
+   For instance `node main -t 212 -s FC`
+

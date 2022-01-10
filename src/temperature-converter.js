@@ -12,12 +12,9 @@ exports.farenheitToCelcius = function(temperature){
 }
 
 exports.getValidNumber = function(numberString){
-  let number = 0;
-  try {
-    number = eval(numberString)
-  } catch (error) {
-    throw Error(`${numberString} is not a valid number`);
-  }
+  if(isNaN(numberString))  throw Error(`${numberString} is not a valid number`);
+  let number = Number(numberString);
+
   if(!isFinite(number)){
     if(number > 0) throw Error(`${numberString} is too large a positive number`);
     throw Error(`${numberString} is too large a negative number`);
